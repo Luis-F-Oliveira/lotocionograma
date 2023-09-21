@@ -1,0 +1,13 @@
+.image {
+    min-height: 85vh;
+    background-image: url(../../img/login/login.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+@media (min-height: 1000px) {
+    .image {
+        min-height: 90vh;
+    }
+}

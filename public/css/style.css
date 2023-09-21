@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mooli', sans-serif;
+}
+
+@media (max-width: 991px) {
+    .rounded-sm {
+        border-radius: 0.25rem !important;
+    }
+}
+
+@media (min-width: 992px) {
+    .rounded-end {
+        border-radius: 0 0.25rem 0.25rem 0;
+    }
+}

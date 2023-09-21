@@ -1,0 +1,12 @@
+.captcha {
+    height: 98px;
+}
+.captcha input {
+    width: 70%;
+    outline: 0;
+    height: 32px;
+}
+
+.display {
+    height: 45px;
+}
