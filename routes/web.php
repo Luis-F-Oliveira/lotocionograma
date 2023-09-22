@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\IndexController;
+use App\Http\Controllers\AuthController;
+use App\Http\Controllers\SystemController;
 
 /*
 |--------------------------------------------------------------------------
@@ -15,3 +17,6 @@ use App\Http\Controllers\IndexController;
 */
 
 Route::get('/', [IndexController::class, 'index'])->name('index');
+Route::post('/login', [AuthController::class, 'login'])->name('login');
+
+Route::get('/lotocionograma', [SystemController::class, 'index'])->name('lotocionograma-index');

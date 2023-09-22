@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
         if (captchaValue == response) {
             const formData = new FormData(myForm)
 
-            fetch('http://localhost:8000/', {
+            fetch('http://localhost:8000/login', {
                 method: "POST",
                 body: formData,
             })

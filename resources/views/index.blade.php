@@ -20,6 +20,7 @@
                 <div class="container my-3">
                     <h1 class="fs-1 text-center text-white mb-4">Login <i class="fa-solid fa-user"></i></h1>
                     <form id="myForm" class="text-center">
+                        @csrf
                         <div class="form-floating mb-3 mx-3">
                             <input type="email" class="form-control" id="email" name="email" placeholder="name@example.com">
                             <label for="email">Email</label>
@@ -44,6 +45,7 @@
             </div>
         </div>
     </div>
+    
     <script src="https://kit.fontawesome.com/cd57c86845.js"></script>
     <script type="module" src="{{ asset('js/login/display.js') }}"></script>
     <script type="module" src="{{ asset('js/login/form.js') }}"></script>
