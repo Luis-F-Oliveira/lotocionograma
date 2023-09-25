@@ -17,26 +17,24 @@ class AuthController extends Controller
 
             if ($credentials) {
                 if (Auth::attempt($credentials)) {
-                    return response()->json(['credenciais' => $credentials]);
+                    $user = $request->user();
+                    session(['user' => $user]);
+                    return response()->json([
+                        'message' => 'Redirecionando para a rota lotocionograma-index.',
+                        'redirect' => route('lotocionograma-index')
+                    ], 302);
                 }
             }
 
-        //             return response()->json(['entrei']);
+            return response()->json(['Negado' => 'Credenciais erradas']);
 
-        //         return response()->json([$credentials]);
         } catch (\Exception $e) {
             return response()->json(['error' => 'Ocorreu um erro durante o login', 'message' => $e->getMessage()], 500);
         }
     }
+
+    public function logout () {
+        session()->forget('user');
+        return redirect('/');
+    }
 }
-
-// $credentials = $request->only('email', 'password');
-
-// if (Auth::attempt($credentials)) {
-//     $user = $request->user();
-//     $token = $user->createToken('authToken')->plainTextToken;
-
-//     return response()->json(['user' => $user, 'token' => $token]);
-// }
-
-// return response()->json(['message' => 'Credenciais inválidas'], 401);

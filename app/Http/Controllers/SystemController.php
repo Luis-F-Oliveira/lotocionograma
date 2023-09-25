@@ -9,6 +9,9 @@ class SystemController extends Controller
 {
     public function index()
     {
+        if (!session()->has('user')) {
+            return redirect('/');
+        }
         return view('system');
     }
 }

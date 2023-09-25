@@ -18,5 +18,6 @@ use App\Http\Controllers\SystemController;
 
 Route::get('/', [IndexController::class, 'index'])->name('index');
 Route::post('/login', [AuthController::class, 'login'])->name('login');
+Route::get('/logout', [AuthController::class, 'logout'])->name('logout');
 
 Route::get('/lotocionograma', [SystemController::class, 'index'])->name('lotocionograma-index');

@@ -22,7 +22,29 @@ document.addEventListener("DOMContentLoaded", function () {
             })
             .then(response => response.json())
             .then(data => {
-                console.log(data)
+                if (data.Negado === 'Credenciais erradas') {
+                    const email = document.getElementById('email')
+                    const emailValue = document.getElementById('email').value
+                    const password = document.getElementById('password')
+
+
+                    email.disabled = true
+                    password.disabled = true
+                    
+                    email.classList.add('is-invalid')
+                    password.classList.add('is-invalid')
+                    
+                    email.value = 'Email/Senha Inválido'
+                    
+                    setTimeout(() => {
+                        email.value = emailValue
+                        email.disabled = false
+                        password.disabled = false
+                    }, 2000);
+                    password.value = ''
+                } else {
+                    window.location.href = '/lotocionograma'
+                }
             })
             .catch(error => {
                 console.error(error)
