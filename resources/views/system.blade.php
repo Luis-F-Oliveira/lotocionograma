@@ -19,7 +19,7 @@
 
     <main>
         <div class="container">
-            <h1>as</h1>
+            @include('templates/' . $slug)
         </div>
     </main>
 

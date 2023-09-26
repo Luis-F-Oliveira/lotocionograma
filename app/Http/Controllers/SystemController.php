@@ -7,11 +7,11 @@ use Illuminate\Http\Request;
 
 class SystemController extends Controller
 {
-    public function index()
+    public function index($slug)
     {
         if (!session()->has('user')) {
-            return redirect('/');
+            return view('index');
         }
-        return view('system');
+        return view('system', ['slug' => $slug]);
     }
 }

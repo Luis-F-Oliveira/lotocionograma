@@ -20,4 +20,4 @@ Route::get('/', [IndexController::class, 'index'])->name('index');
 Route::post('/login', [AuthController::class, 'login'])->name('login');
 Route::get('/logout', [AuthController::class, 'logout'])->name('logout');
 
-Route::get('/lotacionograma', [SystemController::class, 'index'])->name('lotacionograma-index');
+Route::get('/lotacionograma/{slug}', [SystemController::class, 'index'])->name('lotacionograma-index');

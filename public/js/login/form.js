@@ -43,7 +43,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     }, 2000);
                     password.value = ''
                 } else {
-                    window.location.href = '/lotacionograma'
+                    window.location.href = '/lotacionograma/index'
                 }
             })
             .catch(error => {
