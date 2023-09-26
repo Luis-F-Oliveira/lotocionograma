@@ -18,7 +18,7 @@
     @include('templates/sidebar')
 
     <main>
-        <div class="container">
+        <div class="container pt-2">
             @include('templates/' . $slug)
         </div>
     </main>
