@@ -1,4 +1,55 @@
 .body {
-    height: 70%;
-    background: red;
+    height: 75%;
+    padding-top: 10px;
+}
+
+ul {
+    list-style: none;
+}
+ul li {
+    margin: 5px auto 5px -22px;
+}
+ul li a {
+    text-decoration: none;
+}
+ul li a i {
+    margin-right: 4px;
+}
+ul li a i:hover {
+    color: #fff !important;
+    background: #007BFF;
+    transition: 0.5s ease;
+}
+
+.fa-user {
+    font-size: 30px;
+    padding: 12px;
+    background: #fff;
+}
+.fa-table {
+    font-size: 30px;
+    padding: 10px;
+    background: #fff;
+}
+.fa-file-excel {
+    font-size: 30px;
+    padding: 12px 13px;
+    background: #fff;
+}
+.fa-lock {
+    font-size: 30px;
+    padding: 12px;
+    background: #fff;
+}
+
+span:hover {
+    padding: 5px;
+    border-radius: 0.25rem;
+    color: #007BFF;
+    background: #ffffffe7;
+    transition: 0.5s ease;
+}
+
+.hidden {
+    display: none;
 }

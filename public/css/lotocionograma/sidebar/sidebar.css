@@ -5,3 +5,28 @@
     position: fixed;
     z-index: 999;
 }
+
+.sidebar-open {
+    animation: sopen 1s ease-in-out;
+}
+.sidebar-close {
+    animation: sclose 0.5s ease-in-out;
+}
+
+@keyframes sopen {
+    0% {
+        width: 80px;
+    }
+    100% {
+        width: 200px;
+    }
+}
+
+@keyframes sclose {
+    0% {
+        width: 200px;
+    }
+    100% {
+        width: 80px;
+    }
+}

@@ -21,7 +21,7 @@ class AuthController extends Controller
                     session(['user' => $user]);
                     return response()->json([
                         'message' => 'Redirecionando para a rota lotocionograma-index.',
-                        'redirect' => route('lotocionograma-index')
+                        'redirect' => route('lotacionograma-index')
                     ], 302);
                 }
             }

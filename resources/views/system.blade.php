@@ -9,11 +9,22 @@
     <link rel="stylesheet" href="{{ asset('css/lotocionograma/body.css') }}">
     <link rel="stylesheet" href="{{ asset('css/lotocionograma/sidebar/sidebar.css') }}">
     <link rel="stylesheet" href="{{ asset('css/lotocionograma/sidebar/header.css') }}">
-    <title>Lotocionograma - System</title>
+    <link rel="stylesheet" href="{{ asset('css/lotocionograma/sidebar/body.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/lotocionograma/sidebar/footer.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/lotocionograma/main/main.css') }}">
+    <title>Lotacionograma - System</title>
 </head>
 <body>
     @include('templates/sidebar')
+
+    <main>
+        <div class="container">
+            <h1>as</h1>
+        </div>
+    </main>
+
     <script src="https://kit.fontawesome.com/cd57c86845.js"></script>
     <script src="{{ asset('bootstrap/js/bootstrap.min.js') }}"></script>
+    <script src="{{ asset('js/sidebar/sidebar.js') }}"></script>
 </body>
 </html>

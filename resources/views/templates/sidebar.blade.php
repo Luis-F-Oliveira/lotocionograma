@@ -1,22 +1,54 @@
-<h1 class="sidebar bg-primary">
-    <div class="header">
-        <img class="rounded" src="{{ asset('img/icon.png') }}" alt="logo">
+<h1 id="sidebar" class="sidebar bg-primary">
+    <div class="header border-bottom border-light border-2">
+        <a href="">
+            <img class="rounded" src="{{ asset('img/sidebar/icon.png') }}" alt="logo">
+        </a>
         <div class="text">
-            <h1 class="fw-bold text-white">
-                Lotocionograma
+            <h1 class="fw-bold text-white span-none">
+                Lotacionograma
             </h1>
-            <p class="text-white">
-                Nome do usuario
+            <p class="text-white span-none">
+                {{ session('user')->name }}
             </p>
         </div>
+        <button id="open-close" class="close">
+            <i class="fa-solid fa-chevron-right"></i>
+        </button>
     </div>
     <div class="body">
-        xds
+        <ul>
+            <li class="fs-5">
+                <a class="text-white text-uppercase" href="/lotacionograma/perfil">
+                    <i class="rounded text-primary fa-solid fa-user"></i>
+                    <span class="span-none">Perfil</span>
+                </a>
+            </li>
+            <li class="fs-5">
+                <a class="text-white text-uppercase" href="/lotacionograma/table">
+                    <i class="rounded text-primary fa-solid fa-table"></i> 
+                    <span class="span-none">Visualizar</span>
+                </a>
+            </li>
+            <li class="fs-5">
+                <a class="text-white text-uppercase" href="/lotacionograma/export">
+                    <i class="rounded text-primary fa-solid fa-file-excel"></i> 
+                    <span class="span-none">Exportar</span>
+                </a>
+            </li>
+            <li class="fs-5">
+                <a class="text-white text-uppercase" href="/lotacionograma/admin">
+                    <i class="rounded text-primary fa-solid fa-lock"></i> 
+                    <span class="span-none">Admin</span>
+                </a>
+            </li>
+        </ul>
     </div>
-    <div class="footer">
+    <div class="footer d-flex justify-content-center border-top border-light border-2">
         <form action="{{ route('logout') }}" method="get">
             @csrf
-            <input type="submit" value="Deslogar">
+            <button id="logout" class="btn btn-light" type="submit">
+                logout
+            </button>
         </form>
     </div>
 </h1>

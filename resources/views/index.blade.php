@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="{{ asset('css/login/captcha.css') }}">
     <link rel="stylesheet" href="{{ asset('bootstrap/css/bootstrap.min.css') }}">
     <link rel="shortcut icon" href="{{ asset('img/icon.png') }}" type="image/x-icon">
-    <title>Lotocionograma - Login</title>
+    <title>Lotacionograma - Login</title>
 </head>
 <body>
     <div class="container-sm">
