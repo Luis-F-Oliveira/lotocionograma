@@ -42,7 +42,7 @@ ul li a i:hover {
     background: #fff;
 }
 
-span:hover {
+.body span:hover {
     padding: 5px;
     border-radius: 0.25rem;
     color: #007BFF;

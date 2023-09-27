@@ -1,6 +1,6 @@
 <h1 id="sidebar" class="sidebar bg-primary">
     <div class="header border-bottom border-light border-2">
-        <a href="">
+        <a href="/lotacionograma/index">
             <img class="rounded" src="{{ asset('img/sidebar/icon.png') }}" alt="logo">
         </a>
         <div class="text">

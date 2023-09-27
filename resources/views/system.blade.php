@@ -12,6 +12,9 @@
     <link rel="stylesheet" href="{{ asset('css/lotocionograma/sidebar/body.css') }}">
     <link rel="stylesheet" href="{{ asset('css/lotocionograma/sidebar/footer.css') }}">
     <link rel="stylesheet" href="{{ asset('css/lotocionograma/main/main.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/lotocionograma/main/perfil/layout.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/lotocionograma/main/perfil/img.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/lotocionograma/main/perfil/category-input.css') }}">
     <title>Lotacionograma - System</title>
 </head>
 <body>
