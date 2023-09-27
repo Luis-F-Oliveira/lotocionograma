@@ -1,5 +1,5 @@
 .sidebar {
-    width: 200px;
+    width: 80px;
     height: 100%;
     padding-top: 10px;
     position: fixed;
@@ -11,6 +11,10 @@
 }
 .sidebar-close {
     animation: sclose 0.5s ease-in-out;
+}
+
+.hidden {
+    display: none;
 }
 
 @keyframes sopen {

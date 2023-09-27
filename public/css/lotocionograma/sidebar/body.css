@@ -49,7 +49,3 @@ span:hover {
     background: #ffffffe7;
     transition: 0.5s ease;
 }
-
-.hidden {
-    display: none;
-}

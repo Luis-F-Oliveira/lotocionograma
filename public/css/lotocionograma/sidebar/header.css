@@ -31,7 +31,3 @@
     right: -10px;
     position: absolute;
 }
-
-.close {
-    transform: rotate(180deg);
-}
