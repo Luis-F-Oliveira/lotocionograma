@@ -18,12 +18,6 @@
     <div class="body">
         <ul>
             <li class="fs-5">
-                <a class="text-white text-uppercase" href="/lotacionograma/perfil">
-                    <i class="rounded text-primary fa-solid fa-user"></i>
-                    <span class="span-none hidden">Perfil</span>
-                </a>
-            </li>
-            <li class="fs-5">
                 <a class="text-white text-uppercase" href="/lotacionograma/table">
                     <i class="rounded text-primary fa-solid fa-table"></i> 
                     <span class="span-none hidden">Visualizar</span>

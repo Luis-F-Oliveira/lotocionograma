@@ -1,0 +1,12 @@
+<link rel="stylesheet" href="{{ asset('css/style.css') }}">
+<link rel="stylesheet" href="{{ asset('bootstrap/css/bootstrap.min.css') }}">
+<link rel="stylesheet" href="{{ asset('css/lotocionograma/body.css') }}">
+<link rel="stylesheet" href="{{ asset('css/lotocionograma/sidebar/sidebar.css') }}">
+<link rel="stylesheet" href="{{ asset('css/lotocionograma/sidebar/header.css') }}">
+<link rel="stylesheet" href="{{ asset('css/lotocionograma/sidebar/body.css') }}">
+<link rel="stylesheet" href="{{ asset('css/lotocionograma/sidebar/footer.css') }}">
+<link rel="stylesheet" href="{{ asset('css/lotocionograma/main/main.css') }}">
+<link rel="stylesheet" href="{{ asset('css/lotocionograma/main/perfil/perfil.css') }}">
+<link rel="stylesheet" href="{{ asset('css/lotocionograma/main/perfil/perfil-modal.css') }}">
+<link rel="stylesheet" href="{{ asset('css/lotocionograma/main/perfil/category.css') }}">
+<link rel="stylesheet" href="{{ asset('css/lotocionograma/main/perfil/perfil-body.css') }}">

@@ -1,9 +1,0 @@
-.category-input {
-    width: 70%;
-}
-
-@media (max-width: 769px) {
-    .category-input {
-        width: 100%;
-    }
-}
