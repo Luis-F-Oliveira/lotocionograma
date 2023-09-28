@@ -1,0 +1,16 @@
+.head {
+    position: relative;
+}
+.head button {
+    border: 0;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    font-size: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-top: 5px;
+    right: -12px;
+}

@@ -1,8 +1,0 @@
-main {
-    min-height: 100vh;
-    margin-left: 80px;
-    overflow-y: scroll;
-}
-main::-webkit-scrollbar {
-    width: 0px;
-}

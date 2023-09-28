@@ -22,3 +22,7 @@
     --purple-color: #A302F9;
     --blue-color: #bec6e0;
 }
+
+ul {
+    list-style: none;
+}

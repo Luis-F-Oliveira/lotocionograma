@@ -7,16 +7,9 @@
     @include('import/css')
     <title>Lotacionograma - System</title>
 </head>
-<body>
-    @include('templates/sidebar')
-    @include('templates/perfil')
-
-    <main>
-        <div class="container pt-2">
-            @include('templates/' . $slug)
-        </div>
-    </main>
-
+<body class="bg-secondary-subtle">
+    @include('templates/navigation/navbar')
+    @include('templates/navigation/sidebar')
     @include('import/scripts')
 </body>
 </html>

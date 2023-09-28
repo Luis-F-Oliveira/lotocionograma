@@ -1,0 +1,35 @@
+.config-modal {
+    width: 175px;
+    height: 0px;
+    position: absolute;
+    right: 0;
+    display: none;
+}
+
+.config-modal-open {
+    animation: config-open 0.5s ease-in-out;
+}
+.config-modal-close {
+    animation: config-close 0.5s ease-in-out;
+}
+
+@keyframes config-open {
+    0% {
+        height: 0px;
+    }
+    100% {
+        height: 220px;
+    }
+}
+@keyframes config-close {
+    0% {
+        height: 220px;
+    }
+    100% {
+        height: 0px;
+    }
+}
+
+#config-content {
+    display: none;
+}
