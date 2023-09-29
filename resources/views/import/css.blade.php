@@ -4,5 +4,9 @@
 <link rel="stylesheet" href="{{ asset('css/sistema/navbar/perfil-img.css') }}">
 <link rel="stylesheet" href="{{ asset('css/sistema/navbar/config.css') }}">
 <link rel="stylesheet" href="{{ asset('css/sistema/navbar/config-modal.css') }}">
+<link rel="stylesheet" href="{{ asset('css/sistema/navbar/perfil-modal.css') }}">
+<link rel="stylesheet" href="{{ asset('css/sistema/navbar/sac-modal.css') }}">
+<link rel="stylesheet" href="{{ asset('css/sistema/navbar/text-input-area.css') }}">
 <link rel="stylesheet" href="{{ asset('css/sistema/sidebar/sidebar.css') }}">
 <link rel="stylesheet" href="{{ asset('css/sistema/sidebar/head.css') }}">
+<link rel="stylesheet" href="{{ asset('css/sistema/sidebar/body.css') }}">

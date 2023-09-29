@@ -5,6 +5,13 @@
     right: 0;
     display: none;
 }
+.config-modal a {
+    color: #000;
+    transition: 1s ease;
+}
+.config-modal a:hover {
+    color: #0d6efd;
+}
 
 .config-modal-open {
     animation: config-open 0.5s ease-in-out;
@@ -18,12 +25,12 @@
         height: 0px;
     }
     100% {
-        height: 220px;
+        height: 105px;
     }
 }
 @keyframes config-close {
     0% {
-        height: 220px;
+        height: 105px;
     }
     100% {
         height: 0px;

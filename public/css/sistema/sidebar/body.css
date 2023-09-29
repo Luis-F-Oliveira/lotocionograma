@@ -1,0 +1,9 @@
+.span-none {
+    text-decoration: none;
+    color: #0d6efd;
+    transition: 1s ease;
+}
+.span-none:hover {
+    color: #6610f2;
+    font-size: 20px;
+}

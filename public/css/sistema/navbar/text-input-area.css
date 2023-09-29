@@ -1,0 +1,10 @@
+.text-input-area {
+    width: 234px;
+    height: 281px;
+    position: relative;
+}
+.text-input-area textarea {
+    width: 100% !important;
+    height: 100% !important;
+    resize: none;
+}
