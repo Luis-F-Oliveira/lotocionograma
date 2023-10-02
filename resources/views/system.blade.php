@@ -9,6 +9,13 @@
 </head>
 <body class="bg-secondary-subtle">
     @include('templates/navigation/navbar')
+    
+    <main>
+        <div class="container">
+            
+        </div>
+    </main>
+    
     @include('templates/navigation/sidebar')
     @include('import/scripts')
 </body>
