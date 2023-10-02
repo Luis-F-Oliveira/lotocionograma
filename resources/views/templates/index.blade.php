@@ -1,0 +1,1 @@
+<h1 class="fs-1">Bem vindo (a), <strong>{{ session('user')->name }}</strong>!</h1>

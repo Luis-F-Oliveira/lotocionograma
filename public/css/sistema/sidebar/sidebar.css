@@ -1,8 +1,8 @@
 #sidebar {
     width: 65px;
-    height: 200%;
+    height: calc(100vh - 58px);
     z-index: 999;
-    position: absolute;
+    position: fixed;
 }
 #sidebar img {
     width: 60px;

@@ -10,19 +10,19 @@
             <ul class="ms-2">
                 <li>
                     <img class="mb-3" src="{{ asset('img/sidebar/view.png') }}" alt="view">
-                    <a class="span-none hidden ms-2" href="">
+                    <a class="span-none hidden ms-2" href="/lotacionograma/view">
                         Visualizar
                     </a>
                 </li>
                 <li>
                     <img class="mb-3" src="{{ asset('img/sidebar/export.png') }}" alt="export">
-                    <a class="span-none hidden ms-2" href="">
+                    <a class="span-none hidden ms-2" href="/lotacionograma/export">
                         Exportar
                     </a>
                 </li>
                 <li>
                     <img class="mb-3" src="{{ asset('img/sidebar/admin.png') }}" alt="admin">
-                    <a class="span-none hidden ms-2" href="">
+                    <a class="span-none hidden ms-2" href="/lotacionograma/admin">
                         Administrar
                     </a>
                 </li>

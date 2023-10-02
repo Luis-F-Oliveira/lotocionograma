@@ -1,6 +1,6 @@
-<nav class="navbar bg-light mb-1">
+<nav id="navbar" class="navbar bg-light mb-1">
     <div class="container-fluid d-flex justify-content-beetween">
-        <a class="navbar-brand text-primary fw-bold" href="">
+        <a class="navbar-brand text-primary fw-bold" href="/lotacionograma/index">
             Lotacionograma
         </a>
         <i id="config-button" class="fa-solid fa-gear fs-5 ms-3 config"></i>
