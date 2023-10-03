@@ -11,7 +11,7 @@
     @include('templates/navigation/navbar')
     
     <main class="overflow-y-auto vw-100 vh-100">
-        <div class="container-fluid">
+        <div class="container">
             @include('templates/' . $slug)
         </div>
     </main>
